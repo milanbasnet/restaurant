@@ -8,4 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Restaurant extends Model
 {
     use HasFactory;
+    protected $table='restaurants';
+    protected $fillable=[
+        'name', 'description', 'imageFile'
+    ];
 }

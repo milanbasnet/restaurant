@@ -1,0 +1,13 @@
+.boooking-container{
+    width: 100%;
+    display: flex;
+  }
+  .room-container{
+    display: flex;
+  }
+  .checkinn-container{
+    display: flex;
+  }
+  .checkoutt-container{
+    display: flex;
+  }
